@@ -1,31 +1,24 @@
-html {
+html, body {
     height: 100%;
+    margin: 0; 
+    overflow: hidden
 }
 
-body {
-    min-height: 100%;
-}
 
-.nav {
-    background: #23160A;
-    height: 80px;
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .logo {
-    color: whitesmoke;
-    text-align: center;
-    margin: 1rem;
-}
-
-.countDown {
-    color: white;
-    text-align: center;
-    margin: 1rem;
+    margin-left: 117.24px;
+    margin-top: 38.08px;
+    margin-bottom: 26.93px;
+    align-self: center;
 }
 
 .hero {
-   max-width: 100%;
-   height: auto;
+   height: 100vh;
 }
 
 .text1 {
@@ -34,6 +27,8 @@ body {
     font-weight: 500;
     font-size: 40px;
     line-height: 42px;
+
+    margin-left: 117.24px;
 
     color: #3D352B;
 }
@@ -44,6 +39,8 @@ body {
     font-size: 32px;
     line-height: 32px;
 
+    margin-left: 117.24px;
+
     color: #2E271D;
 }
 
@@ -53,6 +50,8 @@ body {
     font-weight: normal;
     font-size: 24px;
     line-height: 120%;
+
+    margin-left: 117.24px;
 
     color: #2E271D;
 }
@@ -77,6 +76,8 @@ button.btn {
     /* font-weight: 600; */
     font-size: 24px;
     line-height: 16px;
+
+    margin-left: 117.24px;
 
     display: flex;
     align-items: center;
