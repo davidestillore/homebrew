@@ -63,7 +63,7 @@ button.btn {
     align-items: flex-start;
     padding: 19px 0px 0px 23px;
     
-    position: absolute;
+    /* position: absolute; */
     width: 350px;
     height: 54px;
     left: 117px;
