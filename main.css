@@ -87,3 +87,24 @@ button.btn {
 
     color: #FFFFFF;
 }
+
+
+/* COUNT DOWN */
+
+.box {
+    border-style:solid; 
+    padding: 1em;
+    color: #2E271D;
+
+    background-color: #FFFFFF ;
+    padding: 10px ;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.countMain {
+    margin-right: 300px;
+}
+
+

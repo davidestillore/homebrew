@@ -13,13 +13,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
+    <div id="getting-started"></div>
+
+
     <!-- LOG AND COUNTDOWN  -->
     <div class="container-fluid">
         <nav class="navbar navbar-dark" style="background-color: #23160A;">
-            <a class="navbar-brand logo" href="#">
-              <img src="assets/homebrew_logo.png" width="177.41px" height="19.99px" alt="logo">
-            </a>
-            <h1>Countdown</h1>
+            <div class="row">
+                <div class="col-sm-12">
+                    <a class="navbar-brand logo" href="#">
+                        <img src="assets/homebrew_logo.png" width="177.41px" height="19.99px" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 countMain">
+                    <a class="navbar-brand" href="#">
+                        <!-- COUNT DOWN  -->
+                        <h1 style="float: left;">LAUNCHING IN</h1>
+                        <h1 class="box" id="day"></h1>
+                        <h1 class="box" id="hours"></h1>
+                        <h1 class="box" id="minutes"></h1>
+                        <h1 class="box" id="seconds"></h1>
+                    </a>
+                </div>
+            </div>
+            
         </nav>
 
         <!-- CONTENT -->
@@ -36,6 +55,14 @@
         </div>
     </div>
 
+
+
+    <!-- JQUERY COUNTDOWN SCRIPTS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- BOOTSTRAP SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
