@@ -7,7 +7,8 @@ body {
 }
 
 .nav {
-    background: rgba(35, 22, 10, 1);
+    background: #23160A;
+    height: 80px;
 }
 
 .logo {
