@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
     margin: 0; 
-    overflow: hidden
+    overflow: hidden;
 }
 
 
@@ -28,6 +28,7 @@ html, body {
     font-size: 40px;
     line-height: 42px;
 
+    margin-bottom: 50px;
     margin-left: 117.24px;
 
     color: #3D352B;
@@ -39,6 +40,7 @@ html, body {
     font-size: 32px;
     line-height: 32px;
 
+    margin-bottom: 48px;
     margin-left: 117.24px;
 
     color: #2E271D;
@@ -51,6 +53,7 @@ html, body {
     font-size: 24px;
     line-height: 120%;
 
+    margin-bottom: 31px;
     margin-left: 117.24px;
 
     color: #2E271D;
