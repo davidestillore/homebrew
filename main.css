@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.nav {
+    background: rgba(35, 22, 10, 1);
+}
+
+.logo {
+    color: whitesmoke;
+    text-align: center;
+    margin: 1rem;
+}
+
+.countDown {
+    color: white;
+    text-align: center;
+    margin: 1rem;
+}
+
+.hero {
+   max-width: 100%;
+   height: auto;
+}
+
+.text1 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 42px;
+
+    color: #3D352B;
+}
+
+.text2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+
+    color: #2E271D;
+}
+
+.text3 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+
+    color: #2E271D;
+}
+
+button.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 19px 0px 0px 23px;
+    
+    position: absolute;
+    width: 350px;
+    height: 54px;
+    left: 117px;
+    top: 637px;
+
+    background: #4E5B27;
+    border-radius: 8px;
+
+    font-family: 'Libre Franklin', sans-serif;
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 24px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
