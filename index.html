@@ -13,43 +13,41 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-
-    <!-- LOG AND COUNTDOWN  -->
+    <div id="getting-started"></div>
+    
     <nav class="navbar navbar-dark" style="background-color: #23160A;">
         <div class="col-sm-6 logo">
-            <img src="assets/homebrew_logo.png" width="177.41px" height="19.99px" alt="logo">
+            <a class="navbar-brand navbar-right" href="#">
+                <img src="assets/homebrew_logo.png" width="177.41px" height="19.99px" alt="logo">
+              </a>
         </div>
         <div class="col-sm-6 count-down">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand navbar-right" href="#">
                 <!-- COUNT DOWN  -->
                 <h1 class="launch" style="float: left;">LAUNCHING IN</h1>
                 <div class="box" id="day"></div>
                 <div class="box" id="hours"></div>
                 <div class="box" id="minutes"></div>
-                <div class="box" id="seconds"></div>
+                <div class="boxright" id="seconds"></div>
             </a>
         </div>
     </nav>
 
-
-    <!-- CONTENT -->
-
-    <div class="container-fluid mainBody">
-        
+    <main role="main" class="container main-container">
         <div class="row">
             <div class="col-sm-6 my-auto">
-                <div class="text1" style="font-family: 'Libre Franklin', sans-serif;">Join the Philippines' preferred marketplace for coffee and tea.</div>
-                <div class="text2">Are you a provider of coffee beans, tea leaves, or brewing supplies?</div>
-                <div class="text3"style="font-family: 'Libre Franklin', sans-serif;">Be a part of our launch this <b>November.</b></div>
+                <h1 class="text1" style="font-family: 'Libre Franklin', sans-serif;">Join the Philippines' preferred marketplace for coffee and tea.</h1>
+                <h1 class="text2">Are you a provider of coffee beans, tea leaves, or brewing supplies?</h1>
+                <h1 class="text3"style="font-family: 'Libre Franklin', sans-serif;">Be a part of our launch this <b>November.</b></h1>
                 <a class="btn">Get Early Acces</a>
             </div>
             <div class="col-sm-6">
-                <img class="hero img-fluid" src="assets/hero.png" alt="Hero Image">
+                <img class="img-fluid" src="assets/hero.png" alt="Hero Image">
             </div>
         </div>
-    </div>
+    </main>
 
-    <div id="getting-started"></div>
+
 
     <!-- JQUERY COUNTDOWN SCRIPTS -->
     <script src="js/jquery.js"></script>
