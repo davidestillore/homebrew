@@ -1,5 +1,5 @@
 $("#getting-started")
-.countdown("2020/09/26", function(event) {
+.countdown("2020/12/5", function(event) {
     $("#day").text(
         event.strftime('%D')
     );$("#hours").text(
